@@ -1,0 +1,486 @@
+.obscurecer{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	display: none;
+	background: rgba(0,0,0,.7);
+}
+
+#login{
+	width:25%;
+	color:#9B9B9B;
+	background-color:#000;
+	border:3px solid #F00;
+	border-radius: 2em;
+	margin:auto;	
+}
+
+.submitLogin{
+	background: black;
+	color: aliceblue;
+	border: 2px solid #FBF5F6;
+	border-radius: 8px;
+	width: 93px;
+	padding: 2px;
+}
+	
+.submitLogin:hover{
+	background:#6CFF30;
+	color: black;
+	border: 2px solid #FBF5F6;
+	width: 93px;
+	padding: 2px;
+}
+
+#login form{
+	padding-top: 25px;
+}
+
+@font-face{
+	font-family: 'tituloLogin';
+	src: url("../Estilos_letras/Dancing_Script/static/DancingScript-SemiBold.ttf");
+}
+
+h1{
+	font:bold 40px 'tituloLogin';
+}
+
+@font-face{
+	font-family: 'mandatoLogin';
+	src: url("../Estilos_letras/Alegreya/Alegreya-Regular.ttf");
+}
+
+h2{
+	font:bold 23px 'mandatoLogin';
+}
+
+@font-face{
+	font-family: 'textoFormulario';
+	src: url("../Estilos_letras/Cormorant Garamond/CormorantGaramond-MediumItalic.ttf");
+}
+
+div form{
+	font:normal 15px 'textoFormulario';
+}
+
+#activarRegistro{
+	font:bold 18px 'mandatoLogin';
+	position: relative;
+	width: 10%;
+	left: 45%;
+	top: 20px;
+	background-color: ivory;
+	padding: 2px;
+	border: 2px solid #050000;
+	border-radius: 6px;
+}
+
+#activarRegistro:hover{
+	background: #000000;
+	color: white;
+	border: 2px solid white;
+}
+
+#registro{
+	width: 24%;
+	background: #fff;
+	border-radius: 1em;
+	padding: 3em;
+	position: fixed;
+	top: 100px;
+	left: 38%;
+	z-index: 200;
+	display: none;
+}
+
+#formularioRegistro input{
+	border: 2px thin #000000;
+}
+
+#submitRegis{
+	background-color: black;
+	color: aliceblue;
+	border-style: inset;
+	border-color: #B1ADAD;
+	border-radius: 5px;
+	padding: 4px;
+	width: 80px;
+	font-size: 1.2em;
+}
+
+#submitRegis:hover{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 4px;
+	width: 80px;
+	font-size: 1.2em;
+}
+
+#cerrarRegistro{
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	width: 30px;
+	height: 30px;
+	padding-top: 3px;
+	padding-left: 3px;
+	border:2px solid black;
+	border-radius: 50%;
+	background: #fbfbfb;
+	color: #000;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1195px){
+	
+	#login{
+		width:25%;
+		color:#9B9B9B;
+		background-color:#000;
+		border:3px solid #F00;
+		border-radius: 2em;
+		margin:auto;	
+	}
+	
+	#login input{
+		width: 180px;
+	}
+	
+	#checkCredenciales{
+		position: relative;
+		left: 80px;
+	}
+	
+	.submitLogin{
+		background: black;
+		color: aliceblue;
+		border: 2px solid #FBF5F6;
+		border-radius: 8px;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.submitLogin:hover{
+		background:#6CFF30;
+		color: black;
+		border: 2px solid #FBF5F6;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.obscurecer{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		display: none;
+		background: rgba(0,0,0,.7);
+	}
+
+	#registro{
+		width: 26%;
+		background: #fff;
+		border-radius: 1em;
+		padding: 3em;
+		position: fixed;
+		top: 100px;
+		left: 37%;
+		z-index: 200;
+		display: none;
+	}
+	
+	#activarRegistro{
+		position: relative;
+		width: 20%;
+		left: 40%;
+		top: 20px;
+		background-color: ivory;
+		padding: 2px;
+		border: 2px solid #050000;
+		border-radius: 6px;
+	}
+	
+}
+
+@media screen and (max-width: 985px){
+	
+	#login{
+		width:40%;
+		color:#9B9B9B;
+		background-color:#000;
+		border:3px solid #F00;
+		border-radius: 2em;
+		margin:auto;	
+	}
+	
+	#login input{
+		width: 180px;
+	}
+	
+	#checkCredenciales{
+		position: relative;
+		left: 80px;
+	}
+	
+	.submitLogin{
+		background: black;
+		color: aliceblue;
+		border: 2px solid #FBF5F6;
+		border-radius: 8px;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.submitLogin:hover{
+		background:#6CFF30;
+		color: black;
+		border: 2px solid #FBF5F6;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.obscurecer{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		display: none;
+		background: rgba(0,0,0,.7);
+	}
+
+	#registro{
+		width: 70%;
+		background: #fff;
+		border-radius: 1em;
+		padding: 3em;
+		position: fixed;
+		top: 100px;
+		left: 15%;
+		z-index: 200;
+		display: none;
+	}
+	
+	#activarRegistro{
+		position: relative;
+		width: 20%;
+		left: 40%;
+		top: 20px;
+		background-color: ivory;
+		padding: 2px;
+		border: 2px solid #050000;
+		border-radius: 6px;
+	}
+	
+}
+
+@media screen and (max-width: 800px){
+	
+	#login{
+		width:50%;
+		color:#9B9B9B;
+		background-color:#000;
+		border:3px solid #F00;
+		border-radius: 2em;
+		margin:auto;	
+	}
+	
+	#login input{
+		width: 180px;
+	}
+	
+	#checkCredenciales{
+		position: relative;
+		left: 80px;
+	}
+	
+	.submitLogin{
+		background: black;
+		color: aliceblue;
+		border: 2px solid #FBF5F6;
+		border-radius: 8px;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.submitLogin:hover{
+		background:#6CFF30;
+		color: black;
+		border: 2px solid #FBF5F6;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.obscurecer{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		display: none;
+		background: rgba(0,0,0,.7);
+	}
+
+	#registro{
+		width: 70%;
+		background: #fff;
+		border-radius: 1em;
+		padding: 3em;
+		position: fixed;
+		top: 100px;
+		left: 15%;
+		z-index: 200;
+		display: none;
+	}
+	
+	#activarRegistro{
+		position: relative;
+		width: 20%;
+		left: 40%;
+		top: 20px;
+		background-color: ivory;
+		padding: 2px;
+		border: 2px solid #050000;
+		border-radius: 6px;
+	}
+	
+}
+
+
+@media screen and (max-width: 500px){
+	
+	#login{
+		width:75%;
+		color:#9B9B9B;
+		background-color:#000;
+		border:3px solid #F00;
+		border-radius: 2em;
+		margin:auto;	
+	}
+	
+	.submitLogin{
+		background: black;
+		color: aliceblue;
+		border: 2px solid #FBF5F6;
+		border-radius: 8px;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.submitLogin:hover{
+		background:#6CFF30;
+		color: black;
+		border: 2px solid #FBF5F6;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.obscurecer{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		display: none;
+		background: rgba(0,0,0,.7);
+	}
+
+	#registro{
+		width: 70%;
+		background: #fff;
+		border-radius: 1em;
+		padding: 3em;
+		position: fixed;
+		top: 100px;
+		left: 15%;
+		z-index: 200;
+		display: none;
+	}
+	
+	#activarRegistro{
+		position: relative;
+		width: 28%;
+		left: 36%;
+		top: 20px;
+		background-color: ivory;
+		padding: 2px;
+		border: 2px solid #050000;
+		border-radius: 6px;
+	}
+	
+}
+
+
+@media screen and (max-width: 384px){
+	
+	#login{
+		width:95%;
+		color:#9B9B9B;
+		background-color:#000;
+		border:3px solid #F00;
+		border-radius: 2em;
+		margin:auto;	
+	}
+	
+	.submitLogin{
+		background: black;
+		color: aliceblue;
+		border: 2px solid #FBF5F6;
+		border-radius: 8px;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.submitLogin:hover{
+		background:#6CFF30;
+		color: black;
+		border: 2px solid #FBF5F6;
+		width: 20px;
+		padding: 1px;
+	}
+	
+	.obscurecer{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		display: none;
+		background: rgba(0,0,0,.7);
+	}
+
+	#registro{
+		width: 70%;
+		background: #fff;
+		border-radius: 1em;
+		padding: 3em;
+		position: fixed;
+		top: 100px;
+		left: 15%;
+		z-index: 200;
+		display: none;
+	}
+	
+	#activarRegistro{
+		position: relative;
+		width: 35%;
+		left: 30%;
+		top: 20px;
+		background-color: ivory;
+		padding: 2px;
+		border: 2px solid #050000;
+		border-radius: 6px;
+	}
+	
+}

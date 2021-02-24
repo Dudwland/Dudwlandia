@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: linear-gradient(black, yellow);
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000), color-stop(50%,#2989d8), 		color-stop(51%,#207cca), color-stop(100%,#7db9e8));*/
+}
+
+.containerInsertEst{
+	padding: 2px;
+}
+
+.img{
+	border: 10px solid #FF0000;
+	border-radius: 60px 20px;
+}
+
+/*Desde aquí el botón de cambiar la imagen.*/
+p#texto{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+	color:white;
+}
+
+p#texto2{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+	color:white;
+}
+
+div#div_file{
+	position: relative;
+	margin: 10px;
+	padding: 5px;
+	width: 100px;
+	background-color: #2499e3;
+	-webkit-border-radius: 50px 20px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 0px #1a71a9;
+	-o-box-shadow: 0px 3px 0px #1a71a9;
+	-moz-box-shadow: 0px 3px 0px #1a71a9;
+	-ms-box-shadow: 0px 3px 0px #1a71a9;
+}
+
+div#div_file2{
+	position: relative;
+	margin: 10px;
+	padding: 5px;
+	width: 100px;
+	background-color: #2499e3;
+	-webkit-border-radius: 50px 20px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 0px #1a71a9;
+	-o-box-shadow: 0px 3px 0px #1a71a9;
+	-moz-box-shadow: 0px 3px 0px #1a71a9;
+	-ms-box-shadow: 0px 3px 0px #1a71a9;
+}
+
+input#btn_enviar{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+input#btn_submit{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+div#desplegarfotos{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 150px;
+	padding: 0px;
+	text-align: center;
+	border-radius: 40px 0px 0px 0px;
+	background: linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8));
+}
+
+#desplegarfotos ul li a:hover{
+	background: #066998;
+}
+
+div#fotosDesplegadas{
+	position: fixed;
+	right: 0;
+	/*bottom: 57px;*/
+	bottom: -100%;
+	width: 110px;
+	padding: 0px;
+	text-align: center;
+	border-radius: 40px 0px 0px 0px;
+	background: linear-gradient(red, grey);
+	
+}
+
+#fotosDesplegadas ul li a:hover{
+	background: #4CCCEC;
+}
+
+#enlaceFotos{
+	border: 2px thin;
+	display:block;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bold;
+	padding:7px 15px;
+	text-decoration:none;
+	border-radius: 40px 0px 0px 0px;
+	
+	background: -moz-linear-gradient(red, grey);
+	
+	/*background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), 		color-stop(51%,#207cca), color-stop(100%,#7db9e8));*/
+}
+
+div ul{
+	list-style: none;
+}
+
+#enlaceFotos2{
+	border: 2px thin;
+	display:block;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bold;
+	padding:7px 15px;
+	text-decoration:none;
+	border-radius: 40px 0px 0px 0px;
+	
+	background: -moz-linear-gradient(red, grey);
+}
+
+#btnEstados{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#btn1{
+	background-color: #48DC14;
+	border: 1px solid #000000;
+}
+
+#btn2{
+	background-color: #D5C80E;
+	border: 1px solid #000000;
+}
